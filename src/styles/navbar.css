@@ -1,0 +1,149 @@
+.navbar {
+  width: 100%;
+  height: 5rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1.5px 6px rgb(44, 44, 44, 0.12);
+  padding: 0 8%;
+}
+
+.navbar h1 a {
+  font-style: italic;
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.navbar nav {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar nav .corporates,
+.navbar nav .products,
+.navbar nav .special,
+.navbar nav .corporatesActive,
+.navbar nav .servicesActive,
+.navbar nav .dealer,
+.navbar nav .services {
+  width: 7.5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar nav .corporates,
+.navbar nav .products a,
+.navbar nav .special a,
+.navbar nav .dealer a,
+.navbar nav .services {
+  cursor: context-menu;
+  text-decoration: none;
+  color: #da251c;
+  display: flex;
+  align-items: center;
+}
+
+.navbar nav .corporates p,
+.navbar nav .corporatesActive p,
+.navbar nav .servicesActive p,
+.navbar nav .services p {
+  cursor: context-menu;
+}
+
+.navbar nav .corporates p:hover,
+.navbar nav .products a:hover,
+.navbar nav .special a:hover,
+.navbar nav .dealer a:hover,
+.navbar nav .services p:hover {
+  width: 100%;
+  height: 100%;
+  background-color: #da251c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar nav .products a.active,
+.navbar nav .special a.active,
+.navbar nav .dealer a.active {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar nav .corporatesActive,
+.navbar nav .servicesActive,
+.navbar nav .products a.active,
+.navbar nav .special a.active,
+.navbar nav .dealer a.active {
+  background-color: #da251c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar nav .corporatesActive .corporate,
+.navbar nav .servicesActive .service {
+  width: 10rem;
+  height: auto;
+  position: absolute;
+  top: 5rem;
+  z-index: 10;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 1.5px 6px rgb(44, 44, 44, 0.15);
+}
+
+.navbar nav .corporatesActive .corporate .link,
+.navbar nav .servicesActive .service .link {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.navbar nav .corporatesActive .corporate .link a,
+.navbar nav .servicesActive .service .link a {
+  height: 2.25rem;
+  width: 100%;
+  text-decoration: none;
+  cursor: context-menu;
+  color: grey;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.navbar nav .corporatesActive .corporate .link a:hover,
+.navbar nav .servicesActive .service .link a:hover,
+.navbar nav .corporatesActive .corporate .link a.active,
+.navbar nav .servicesActive .service .link a.active {
+  background-color: #da251c;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar .badge {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .badge span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.25px solid #1f1f1f;
+  color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

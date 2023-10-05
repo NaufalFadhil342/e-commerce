@@ -1,0 +1,112 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 0 0 0;
+}
+
+.footer .socmed {
+  background-color: #da251c;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.footer .socmed .socmedContent {
+  padding: 1rem 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer .socmed h2 {
+  text-transform: uppercase;
+}
+
+.footer .socmed .socmedIcons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.footer .socmed .socmedIcons span {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.footer .footerContent {
+  background-color: #1f1f1f;
+  padding: 2rem 8%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 2rem;
+}
+
+.footer .footerContent .mainFooter,
+.footer .footerContent .mainFooter .call-center {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.footer .footerContent .mainFooter p {
+  color: #c0c0c0;
+}
+
+.footer .footerContent .mainFooter .call-center {
+  gap: 0.75rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #da251c;
+}
+
+.footer .footerContent .mainFooter .call-center span {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer .footerContent .mainFooter .call-center span svg {
+  font-size: 25px;
+}
+
+.footer .footerContent .navFooter {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.footer .footerContent .navFooter .link,
+.footer .footerContent .navFooter .link div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.footer .footerContent .navFooter .link div {
+  gap: 0.75rem;
+}
+
+.footer .footerContent .navFooter .link div p {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer .footerContent .navFooter .link div a {
+  text-decoration: none;
+  color: #c0c0c0;
+}
+
+.footer .footerContent .navFooter .link div a:hover {
+  color: #da251c;
+  transition: all 0.2s ease-in;
+}

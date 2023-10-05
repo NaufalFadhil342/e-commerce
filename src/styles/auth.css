@@ -1,0 +1,68 @@
+.auth {
+  width: 100%;
+  padding: 0.75rem 8%;
+  background-color: #da251c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth p,
+.auth p .helper {
+  width: auto;
+  font-size: 13px;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.auth p .helper {
+  align-items: center;
+}
+
+.auth p span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.auth p span svg {
+  font-size: 20px;
+  color: #fff;
+}
+
+.auth .sign {
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.auth .sign a,
+.helper a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.auth .sign .userSignin {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #fff;
+}
+
+.auth .sign .userSignin button {
+  padding: 0.25rem 0.5rem;
+  background-color: #fff;
+  color: #da251c;
+  border: none;
+  border-radius: 5px;
+}
+
+.auth .sign .userSignin button:hover {
+  background-color: #f0f0f0;
+  transition: all 0.15s ease-in;
+}
